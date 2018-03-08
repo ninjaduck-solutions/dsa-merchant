@@ -15,8 +15,8 @@ before_install:
   - pip install codecov
 
 before-script:
-  - psql -U postgres -c "CREATE USER dsa-merchant WITH CREATEUSER PASSWORD 'dsa-merchant';"
-  - psql -U postgres -c "ALTER USER  dsa-merchant CREATEDB;"
+  - psql -U postgres -c "CREATE USER dsa_merchant WITH CREATEUSER PASSWORD 'dsa_merchant';"
+  - psql -U postgres -c "ALTER USER  dsa_merchant CREATEDB;"
 
 # command to install dependencies, e.g. pip install -r requirements.txt --use-mirrors
 install:
@@ -24,8 +24,8 @@ install:
 
 # command to run tests, e.g. python setup.py test
 script:
-  - psql -U postgres -c "CREATE USER  dsa-merchant WITH CREATEUSER PASSWORD 'foobar';"
-  - psql -U postgres -c "ALTER USER  dsa-merchant CREATEDB;"
+  - psql -U postgres -c "CREATE USER  dsa_merchant WITH CREATEUSER PASSWORD 'dsa_merchant';"
+  - psql -U postgres -c "ALTER USER  dsa_merchant CREATEDB;"
   - make test-all
 
 after_success:

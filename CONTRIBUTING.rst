@@ -14,7 +14,7 @@ Report Bugs
 -----------
 
 Report bugs at the `GitHub issue tracker
-<https://github.com/elbenfreund/dsa-merchant/issues>`_.
+<https://github.com/ninjaduck-solutions/dsa-merchant/issues>`_.
 
 If you are reporting a bug, please include:
 
@@ -45,7 +45,7 @@ Submit Feedback
 ---------------
 
 The best way to send feedback is to file an issue at the `GitHub issue tracker
-<https://github.com/elbenfreund/dsa-merchant/issues>`_.
+<https://github.com/ninjaduck-solutions/dsa-merchant/issues>`_.
 
 If you are proposing a feature:
 
