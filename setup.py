@@ -35,7 +35,7 @@ requires = [
     'envdir==0.7',
     'psycopg2-binary==2.7.4',
     'pytz==2015.7',
-    'rules==1.1.1',
+    'rules==1.3.0',
 ]
 
 
