@@ -1,0 +1,25 @@
+include *.rst
+include LICENSE
+include Makefile
+include manage.py
+include tox.ini
+
+exclude .bumpversion.cfg
+exclude .editorconfig
+exclude pep257.sh
+
+recursive-include docs *.rst .gitkeep conf.py Makefile make.bat
+recursive-include requirements *.pip
+
+recursive-exclude * __pycache__
+recursive-exclude * *.py[co]
+
+graft dsa_merchant
+graft tests
+
+prune envs
+prune dsa_merchant/.cache
+prune dsa_merchant/media
+include dsa_merchant/media/.gitkeep
+prune dsa_merchant/static_root
+include dsa_merchant/static_root/.gitkeep
