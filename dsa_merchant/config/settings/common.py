@@ -188,6 +188,7 @@ class Common(Configuration):
         'django.contrib.admindocs',
         'crispy_forms',
         'rules.apps.AutodiscoverRulesConfig',
+        'dsa_merchant.apps.item_list.apps.ItemListConfig'
     )
 
     CACHES = values. DictValue({
