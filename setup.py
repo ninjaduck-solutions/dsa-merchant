@@ -29,7 +29,7 @@ requires = [
     'dj-database-url==0.3.0',
     'django-braces==1.8.1',
     'django-configurations==1.0',
-    'django-crispy-forms==1.5.2',
+    'django-crispy-forms==1.7.1',
     'django-grappelli==2.10.1',
     'django-model-utils==2.4',
     'envdir==0.7',
