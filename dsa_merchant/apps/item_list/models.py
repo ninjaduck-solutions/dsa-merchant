@@ -19,3 +19,7 @@ class RuleReference(models.Model):
     class Meta:
         ordering = ('title', 'year_published')
         unique_together = (('title', 'edition', 'year_published'),)
+
+    def __str__(self):
+        """Return string representation."""
+        return self.title
