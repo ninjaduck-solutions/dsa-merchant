@@ -1,1 +1,1 @@
-postgres://dsa-merchant:dsa-merchant@localhost/dsa-merchant
+postgres://dsa_merchant:dsa-merchant@localhost/dsa-merchant
